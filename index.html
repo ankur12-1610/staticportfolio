@@ -6,10 +6,11 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>
-        Ankur Patil | Designer, Front-End Developer & Programmer
+        Ankur Patil | Web Developer, Designer &  Programmer
         </title>
         <!-- Favicon-->
         <link rel="icon" type="png/icon" href="dist/assets/img/favicon.ico" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -31,39 +32,17 @@
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">My Projects</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About Me</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://drive.google.com/file/d/1jtzHnhyh31bNXe0dWmn89yxdds7kDBbr/view?usp=sharing" target="_blank" >Resume</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://drive.google.com/file/d/1LGnYEZ1SQ5DYcRWO58I5Z1RkdRKqO9Y_/view?usp=sharing" target="_blank" >Resume</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
-    crossorigin="anonymous"></script>
-    <script>
-$(document).ready(function(){
-$(window).scroll(function(){
-var scroll = $(window).scrollTop();
-if (scroll < 300) {
-  $(".navbar").css("background" , "transparent"); 
-    $(".navbar a").css("color" , "#6e44ff"); 
-}
-
-else{
-
-    $(".navbar").css("background" , "rgba(0,0,0,0.8)");
-  $(".navbar a").css("color" , "#fff");	
-}
-})
-}) -->
-
-<!-- </script> -->
-
+    
     <div style="background-color: white !important; color: black !important;" class="masthead text-center">
         <div class="container d-flex align-items-center flex-column bg-backgroud">
             <!-- Masthead Avatar Image-->
             <img style="z-index: 1000;" class="masthead-avatar mb-5" src="dist/assets/img/portfolio/pp.png" style="height:150px !important; width: 150px !important;"alt="..." />
-            <!-- <img style="z-index: 1000;" class="masthead-avatar mb-5" src="dist/assets/img/Intersect.png" alt="Ankur" />
+            <!-- <img style="z-index: 1000;" class="masthead-avatar mb-5" src="dist/assets/img/Intersect.png" alt="Ankur" />-->
             <!-- Masthead Heading-->
             <h1 style="z-index: 1000;" class="masthead-heading text-dark mb-0">Hi, I'm Ankur</h1>
             <!-- Icon Divider-->
@@ -73,33 +52,11 @@ else{
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <h6 style="z-index: 1000;"class="masthead-subheading font-weight-light text-dark mb-0">Designer, Front-End Developer & Programmer</h6>
+            <h6 style="z-index: 1000;"class="masthead-subheading font-weight-light text-dark mb-0">Web Developer, Designer & Programmer</h6>
         </div>
-        <!-- <div>
-        <img style="margin-bottom: -16% !important; margin-top: -23% !important; margin-left: 7% !important;" class="yo mb-5" src="dist/assets/img/vector.svg">
-        </div> -->
     </div>
     <body id="page-top">
         
-        <!-- Masthead-->
-    
-        <!-- <header class="masthead bg-primary text-white text-center" >
-            <div class="container d-flex align-items-center flex-column"> -->
-                <!-- Masthead Avatar Image-->
-                <!-- <img class="masthead-avatar mb-5" src="dist/assets/img/avataaars.svg" alt="..." /> -->
-                <!-- Masthead Heading-->
-                <!-- <h1 class="masthead-heading mb-0">Hi, I'm Ankur</h1> -->
-                <!-- Icon Divider-->
-                <!-- <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div> -->
-                <!-- Masthead Subheading-->
-                <!-- <h6 class="masthead-subheading font-weight-light mb-0">Designer, Front-End Developer & Programmer</h6>
-            </div>
-        </header> -->
-
     
         <!-- Portfolio Section-->
         <section style="background-color: #53b3cb !important;" class="page-section portfolio" id="portfolio">
@@ -116,34 +73,91 @@ else{
                 <h5 style="font-weight: 400; text-align: center; color: white;"class="yo" class="lead">Here are a few webdev projects I've worked on recently.</h5>
                 <!-- Portfolio Grid Items-->
                 <br><br>
-                    <!-- <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="card-deck" style="padding-top: 20px; padding-bottom: 20px">
+                        <div class="card"  style="border: 0px solid #53b3cb">
+                          <img class="card-img-top" style="border-bottom: 1.5px solid #000" src="dist/assets/img/portfolio/drf-logo.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title" >Webdev Rookies - Backend</h5>
+                            <p class="card-text">A backend server made for Webdev Rookies website, made with Django REST framework and setup on Heroku Postgresql for database management.</p>
+                          </div>
+                          <div class="card-footer" >
+        
+                            <!-- <a href="https://webdev-rookies.herokuapp.com/" target="_blank" class="btn btn-outline-info">Visit Site</a> -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-outline-info"><a href="https://webdev-rookies.herokuapp.com/" target = "_blank"><i style = "color:#53b3cb !important;"  class="bi bi-globe"></i></a></button>
+                              </div>
+                              <div class="btn-group" role="group" aria-label="Third group">
+                                <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/webdev-rookies-backend" target = "_blank"><i style = "color:#53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                              </div>
                             </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio/tictactoe.png" alt="..." />
+                          </div>
                         </div>
-                    </div> -->
-                    <!-- Portfolio Item 2-->
-                    <!-- <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="card"  style="border: 0px solid #53b3cb">
+                            <img class="card-img-top" style="border-bottom: 1.5px solid #000" src="dist/assets/img/portfolio/fullstack.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Webdev Rookies - Frontend</h5>
+                              <p class="card-text">A fullstack webapp which has functionalities like Google Classroomm made with React and integrated to the backend server with Axios</p>
                             </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio/boot.png" alt="..." />
-                        </div>
-                    </div> -->
-                    <!-- Portfolio Item 3-->
-                    <!-- <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="card-footer align-center" >
+                                <!-- <div class="btn-group mr-2" role="group" aria-label="Basic example">
+                              <a href="https://webdev-rookies.vercel.app/" target="_blank" class="btn btn-outline-info" >Visit Site</a>
+                              <a href="https://webdev-rookies.vercel.app/" target="_blank" class="btn btn-outline-info" ><i class="fab fa-fw fa-github"></i></a>
+                                </div> -->
+                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                    <div class="btn-group mr-2" role="group" aria-label="First group">
+                                      <button type="button" class="btn btn-outline-info"><a href="https://webdev-rookies.vercel.app/" target = "_blank"><i style = "color:#53b3cb !important;"  class="bi bi-globe"></i></a></button>
+                                    </div>
+                                    <div class="btn-group" role="group" aria-label="Third group">
+                                      <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/google-classroom-clone-frontend" target = "_blank"><i style = "color:#53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                                    </div>
+                                  </div>
                             </div>
-                            <img class="img-fluid" src="dist/assets/img/portfolio/djb.png" alt="..." />
+                          </div>
+                        <div class="card" style="border: 0px solid #53b3cb">
+                          <img class="card-img-top" src="dist/assets/img/portfolio/axios.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Todos List</h5>
+    
+                            <p class="card-text">Todos List webapp with React and Bootstrap, with an interactive and improved UI.</p>
+                          </div>
+                          <div class="card-footer">
+                            <!-- <a href="https://ankur-todo.netlify.app/login/" target="_blank" class="btn btn-outline-info">Visit Site</a> -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                  <button type="button"  class="btn btn-outline-info"><a href = "https://ankur-todo.vercel.app/" target = "_blanK" ><i  style = "color:#53b3cb !important;" class="bi bi-globe"></i></a></button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                  <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/Todo-react" target = "_blank"><i style = "color:#53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                                </div>
+                              </div>
+                          </div>
                         </div>
-                    </div> -->
-                    
+                      </div>
+
+                      <br>
+                
                     <div class="card-deck">
+                       <!-- <div class="card"  style="border: 0px solid #53b3cb;">
+                          <img class="card-img-top" src="dist/assets/img/portfolio/drf-logo.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title" >Webdev Rookies - Backend</h5>
+                            <p class="card-text">A backend server made for Webdev Rookies website, made with Django REST framework and setup on Heroku Postgresql for database management.</p>
+                          </div>
+                          <div class="card-footer" >
+                            <a href="https://webdev-rookies.herokuapp.com/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                          </div>
+                        </div>
+                        <div class="card"  style="border: 0px solid #53b3cb;">
+                          <img class="card-img-top" src="dist/assets/img/portfolio/boot.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title" >Webdev Rookies - Frontend</h5>
+                            <p class="card-text">A fullstack webapp which has functionalities like Google Classroomm made with React and integrated to the backend server with Axios.</p>
+                          </div>
+                          <div class="card-footer" >
+                            <a href="https://itsankur.tech/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                          </div>
+                        </div> -->
                         <div class="card"  style="border: 0px solid #53b3cb;">
                           <img class="card-img-top" src="dist/assets/img/portfolio/boot.png" alt="Card image cap">
                           <div class="card-body">
@@ -151,7 +165,15 @@ else{
                             <p class="card-text">Personal Portfolio website created with Bootstrap.</p>
                           </div>
                           <div class="card-footer" >
-                            <a href="https://itsankur.tech/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                            <!-- <a href="https://itsankur.tech/" target="_blank" class="btn btn-outline-info">Visit Site</a> -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                  <button type="button" class="btn btn-outline-info"><a href = "https://itsankur.tech/" target = "_blanK" ><i  style = "color:#53b3cb !important;" class="bi bi-globe"></i></a></button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                  <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/staticportfolio" target = "_blank"><i style = "color:#53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                                </div>
+                              </div>
                           </div>
                         </div>
                         <div class="card" style="border: 0px solid #53b3cb">
@@ -159,9 +181,18 @@ else{
                           <div class="card-body">
                             <h5 class="card-title">Personal Portfolio(dynamic)</h5>
                             <p class="card-text">Personal Portfolio website created with Django and Bootstrap.</p>
+                            
                           </div>
                           <div class="card-footer">
-                            <a href="http://itsankurs.herokuapp.com/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                            <!-- <a href="http://itsankurs.herokuapp.com/" target="_blank" class="btn btn-outline-info">Visit Site</a> -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                  <button type="button" class="btn btn-outline-info"><a href = "http://itsankurs.herokuapp.com/" target = "_blanK" ><i style = "color:#53b3cb !important;" class="bi bi-globe"></i></a></button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                  <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/itsankur" target = "_blank"><i style = "color: #53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                                </div>
+                              </div>
                           </div>
                         </div>
                         <div class="card"  style="border: 0px solid #53b3cb">
@@ -171,12 +202,21 @@ else{
                             <p class="card-text">Webapp to play tic-tac-toe game as multiplayer or with unbeatable bot implementing minimax algorithm.</p>
                           </div>
                           <div class="card-footer" >
-                            <a href="https://ankur-tic-tac-toe.netlify.app/" target="_blank" class="btn btn-outline-info" >Visit Site</a>
+                            <!-- <a href="https://ankur-tic-tac-toe.netlify.app/" target="_blank" class="btn btn-outline-info" >Visit Site</a> -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                  <button type="button" class="btn btn-outline-info"><a href="https://ankur-tic-tac-toe.netlify.app/" target="_blank"><i style = "color:#53b3cb !important;" class="bi bi-globe"></i></a></button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                  <button type="button" class="btn btn-outline-info"><a href="https://github.com/ankur12-1610/Tic-Tac-Toe" target = "_blank"><i style = "color:#53b3cb !important;" class="fab fa-fw fa-github"></i></a></button>
+                                </div>
+                            </div>
                           </div>
                         </div>
                       </div>
+                      <br>
                     
-                      <div class="card-deck" style="padding-top: 20px;">
+                      <!-- <div class="card-deck" style="padding-top: 20px;">
                         <div class="card"  style="border: 0px solid #53b3cb">
                           <img class="card-img-top" src="dist/assets/img/portfolio/reactb.png" alt="Card image cap">
                           <div class="card-body">
@@ -186,6 +226,14 @@ else{
                           <div class="card-footer" >
         
                             <a href="https://ankur-todo.vercel.app/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-outline-info"><i class="bi bi-globe"></i></button>
+                              </div>
+                              <div class="btn-group" role="group" aria-label="Third group">
+                                <button type="button" class="btn btn-outline-info"><i class="fab fa-fw fa-github"></i></button>
+                              </div>
+                          </div>
                           </div>
                         </div>
                         <div class="card"  style="border: 0px solid #53b3cb">
@@ -196,9 +244,17 @@ else{
                             </div>
                             <div class="card-footer" >
                               <a href="https://alumni.iitbhu.ac.in/" target="_blank" class="btn btn-outline-info" >Visit Site</a>
+                              <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group mr-2" role="group" aria-label="First group">
+                                  <button type="button" class="btn btn-outline-info"><i class="bi bi-globe"></i></button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                  <button type="button" class="btn btn-outline-info"><i class="fab fa-fw fa-github"></i></button>
+                                </div>
                             </div>
-                          </div>
-                        <div class="card" style="border: 0px solid #53b3cb">
+                            </div>
+                          </div> -->
+                        <!-- <div class="card" style="border: 0px solid #53b3cb">
                           <img class="card-img-top" src="dist/assets/img/portfolio/axios.png" alt="Card image cap">
                           <div class="card-body">
                             <h5 class="card-title">Todos List(using Axios)</h5>
@@ -207,37 +263,17 @@ else{
                           </div>
                           <div class="card-footer">
                             <a href="https://ankur-todo.netlify.app/login/" target="_blank" class="btn btn-outline-info">Visit Site</a>
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                              <div class="btn-group mr-2" role="group" aria-label="First group">
+                                <button type="button" class="btn btn-outline-info"><i class="bi bi-globe"></i></button>
+                              </div>
+                              <div class="btn-group" role="group" aria-label="Third group">
+                                <button type="button" class="btn btn-outline-info"><i class="fab fa-fw fa-github"></i></button>
+                              </div>
+                          </div>
                           </div>
                         </div>
-                      </div>
-                
-                    <!-- Portfolio Item 4-->
-                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
-                        </div>
-                    </div> -->
-                    <!-- Portfolio Item 5-->
-                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
-                        </div>
-                    </div> -->
-                    <!-- Portfolio Item 6-->
-                    <!-- <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
-                        </div>
-                    </div> -->
+                      </div> -->
                 </div>
             </div>
         </section>
@@ -423,7 +459,7 @@ var particles = Particles.init({
   connectParticles: true
 }); -->
           <!-- </script> -->
-          <script
+          <!-- <script
           src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
           integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
           crossorigin="anonymous"></script>
@@ -441,7 +477,7 @@ var particles = Particles.init({
 	  }
   })
 })
-          </script>
+          </script> -->
           
     </body>
 </html>
